@@ -1,0 +1,40 @@
+body{
+    background-image: url(images/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 900px;
+}
+#login{
+    width: 480px;
+    height: 480px;
+    border-radius: 8px;
+}
+
+#regform{
+    width: 560px;
+    height: 560px;
+    border-radius: 8px;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    bottom: -5px;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s ease;
+}
+.navbar a:hover:after{
+    transform: translateY(0);
+    opacity: 1;
+}

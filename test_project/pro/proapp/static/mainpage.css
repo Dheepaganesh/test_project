@@ -1,0 +1,10 @@
+body{
+    background-image: url(images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 800px;
+}
+
+center h1{
+    margin-top: 18%;
+    color: aliceblue;
+}
